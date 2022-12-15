@@ -1,0 +1,117 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(229, 57%, 11%);
+  background-image: url('./images/bg-desktop.png');
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: 100rem 23rem;
+  background-attachment: fixed;
+  /* width: 1440px; */
+  width: 100%;
+  height: 100%;
+  
+}
+main {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 50%;
+  margin: 15rem auto;
+}
+.first-box {
+  width: 300px;
+  height: 200px;
+  padding: 40px;
+  color: white;
+  border-radius: 10px;
+  border-top-right-radius: 120px;
+  background-color: hsl(228, 56%, 26%);
+}
+.lower div {
+width: 45px;
+border-radius: 10px;
+padding: 15px 20px 10px 10px;
+background-color: hsl(229, 57%, 11%);
+}
+.lower {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  margin-left: -40px;
+}
+.second-box {
+  width: 400px;
+  height: 140px;
+  color: hsl(243, 100%, 93%);
+  font-size: 14px;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: hsl(228, 56%, 26%);
+  font-family: 'Raleway';
+  
+}
+.top {
+  display: flex;
+  justify-content: baseline;
+  flex-direction: row;
+}
+.chat-box {
+  position: relative;
+  margin-top: -70px;
+  
+}
+.normal-box {
+  background-color: white;
+  width: 7rem;
+  height: 2.7rem;
+  padding: 8px;
+  border-radius: 3px;
+  /* position: absolute; */
+}
+.triangle {
+  bottom: 0;
+  position: absolute;
+  left: 88px;
+  top: 40px;
+  background-color: white;
+  width: 1.5rem;
+  height: 1.5rem;
+  clip-path: polygon(100% 0, 100% 100%, 0 0);
+}
+.measure-bar {
+  width: 20rem;
+  border-radius: 40px;
+  margin: 10px 0px 8px;
+  height: 20px;
+  padding: 0.5px;
+  background-color: hsl(229, 57%, 11%);
+}
+
+.gradient {
+  width: 15.5rem;
+  height: 13px;
+  margin: 3px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: flex-end;
+  background-image: linear-gradient(90deg, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+}
+.white-circle {
+  background-color: white;
+  width: 11.5px;
+  height: 11.5px;
+  margin: 0.5px 1px 0px 1px;
+  border-radius: 50%;
+}
+.text {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
